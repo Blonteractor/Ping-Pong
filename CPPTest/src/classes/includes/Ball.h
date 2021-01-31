@@ -24,13 +24,13 @@ public:
 	cBall();
 
 	// gets current X co ordinate of ball
-	inline int getX();
+	inline int getX() const;
 
 	// gets current Y co ordinate of ball
-	inline int getY();
+	inline int getY() const;
 
 	// gets current direction of ball
-	inline eDir getDirection();
+	inline eDir getDirection() const;
 
 
 	// resets the state of the ball

@@ -20,9 +20,9 @@ cBall::cBall()
 	direction = STOP;
 }
 
-inline int cBall::getX() { return x; }
-inline int cBall::getY() { return y; }
-inline eDir cBall::getDirection() { return direction; }
+inline int cBall::getX() const { return x; }
+inline int cBall::getY() const { return y; }
+inline eDir cBall::getDirection() const { return direction; }
 
 void cBall::Reset()
 {
@@ -82,8 +82,8 @@ void cBall::Move()
 	}
 }
 
-ostream& operator<<(ostream& o, cBall c)
+ostream& operator<<(ostream& stream, cBall ball)
 {
-	o << "Ball [" << c.x << "," << c.y << "][" << c.direction << "]";
-	return o;
+	stream << "Ball [" << ball.x << "," << ball.y << "][" << ball.direction << "]";
+	return stream;
 }
