@@ -21,9 +21,15 @@
     <ClCompile Include="src\classes\Ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\classes\Paddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\classes\includes\Ball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\classes\includes\Paddle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
