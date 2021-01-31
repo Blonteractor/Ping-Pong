@@ -152,11 +152,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\classes\GameManager.cpp" />
     <ClCompile Include="src\classes\Paddle.cpp" />
     <ClCompile Include="src\classes\Ball.cpp" />
     <ClCompile Include="src\Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\classes\includes\GameManager.h" />
     <ClInclude Include="src\classes\includes\Paddle.h" />
     <ClInclude Include="src\classes\includes\Ball.h" />
   </ItemGroup>
